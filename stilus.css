@@ -1,18 +1,23 @@
 body {
-    
+    background-color: lightgrey;
+    text-align: center;
+    margin:auto;
+    width:60%;
+    height:10cm;
 }
 
 h1 {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-
+    font-size:80px;
 }
 
 p {
-    
+    font-size: 50px;
 }
 
 strong {
-
+    font-size: larger;
+    color:red;
 }
 
 div {
@@ -20,4 +25,8 @@ div {
     padding: 12%;
     border-image-source:url(Képek\\Cartoon.jfif);
     box-shadow:20px 20px 25px black;
+    background-color: lightgoldenrodyellow;
+    text-align: center;
+    border-image-slice:15% 23%;
+    border-image-width: auto;
 }
